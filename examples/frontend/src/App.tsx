@@ -21,16 +21,16 @@ function App() {
       </div>
       <h1>IC x BTC </h1>
       <div className="card">
-        <Typography.Title level={5} style={{ color: '#fff' }}>
+        <Typography.Title level={5} style={{ color: '#0ef' }}>
           BTC Address is
         </Typography.Title>
-        <Typography.Text style={{ color: '#fff' }}>{identityAddress}</Typography.Text>
+        <Typography.Text style={{ color: '#fe2' }}>{identityAddress}</Typography.Text>
       </div>
       <div className="card">
-        <Typography.Title level={5} style={{ color: '#fff' }}>
+        <Typography.Title level={5} style={{ color: '#0ef' }}>
           Identity Principal is
         </Typography.Title>
-        <Typography.Text style={{ color: '#fff' }}>{identity?.getPrincipal().toText()}</Typography.Text>
+        <Typography.Text style={{ color: '#fe2' }}>{identity?.getPrincipal().toText()}</Typography.Text>
       </div>
       <Button
         type="dashed"

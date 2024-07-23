@@ -3,7 +3,7 @@ import App from './App.tsx';
 import AuthGuard from './AuthGuard.tsx';
 import './index.css';
 // import { SiwbIdentityProvider } from 'ic-use-siwb-identity';
-import type { _SERVICE as siweService } from './idls/ic_siwb_provider.d.ts';
+import type { _SERVICE as siwbService } from './idls/ic_siwb_provider.d.ts';
 import { idlFactory as siwbIdl } from './idls/ic_siwb_provider.idl.ts';
 import { SiwbIdentityProvider } from 'ic-use-siwb-identity';
 

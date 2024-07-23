@@ -9,7 +9,7 @@ import { SiwbIdentityProvider } from 'ic-use-siwb-identity';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   //<React.StrictMode>
-  <SiwbIdentityProvider<siweService>
+  <SiwbIdentityProvider<siwbService>
     canisterId="bkyz2-fmaaa-aaaaa-qaaaq-cai"
     idlFactory={siwbIdl}
     httpAgentOptions={{ host: 'http://127.0.0.1:4943' }}
